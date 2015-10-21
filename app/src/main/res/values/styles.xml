@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+
+
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base"></style>
+
+
+    <style name="delivery_dialog" parent="Base.V7.Theme.AppCompat.Light.Dialog">
+
+        <item name="android:dividerHeight">2dp</item>
+
+    </style>
+
+
+    <style name="divider_line">
+
+        <item name="android:layout_height">1dp</item>
+
+
+
+    </style>
+
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="windowNoTitle">true</item>
+
+        <item name="windowActionBar">false</item>
+
+    </style>
+
+
+    <style name="ola_button">
+
+        <item name="android:textSize">@dimen/activity_horizontal_margin</item>
+
+
+    </style>
+
+
+    <style name="category_panel_individual">
+
+        <item name="android:layout_marginLeft">6dp</item>
+
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+
+        <item name="android:layout_marginRight">6dp</item>
+
+    </style>
+
+
+    <style name="MaterialProgressBarCircular" parent="Widget.AppCompat.ProgressBar">
+
+        <item name="android:layout_height">50dp</item>
+
+        <item name="android:layout_width">50dp</item>
+
+
+
+
+
+        <item name="android:gravity">center</item>
+
+    </style>
+
+
+    <style name="circleImageViewNormal">
+
+
+
+
+
+    </style>
+
+
+    <style name="MaterialDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <!-- Used for the buttons -->
+
+
+        <!-- Used for the title and text -->
+
+
+        <!-- Used for the background -->
+
+
+        <item name="android:background">@color/primary_text_default_material_light</item>
+
+    </style>
+
+</resources>
